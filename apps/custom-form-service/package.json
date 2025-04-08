@@ -1,0 +1,46 @@
+{
+  "name": "@og-pro/custom-form-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect=0.0.0.0 -L bin/run.js --watch .",
+    "sync": "node bin/syncDev.js",
+    "migrate-data": "sequelize db:migrate",
+    "create-migration": "sequelize migration:create",
+    "undo-migration": "sequelize db:migrate:undo",
+    "test-service": "cross-env NODE_ENV=test mocha --exit --require ./tests/testHelper.js '**/*_test.js'",
+    "test-service-all": "nyc npm run test-service"
+  },
+  "keywords": [],
+  "author": "Arsalan",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@koa/router": "^13.0.1",
+    "@og-pro/auth": "^1.0.0",
+    "@og-pro/base-setup": "^1.0.0",
+    "@og-pro/cache": "^1.0.0",
+    "@og-pro/db-migration": "^1.0.0",
+    "@og-pro/db-util": "^1.0.0",
+    "@og-pro/kafka": "*",
+    "@og-pro/launch-darkly": "^1.0.0",
+    "@og-pro/logger": "^1.0.0",
+    "@og-pro/redis": "^1.0.0",
+    "@og-pro/sequelize-helpers": "^1.0.0",
+    "@og-pro/service-harness": "^1.0.0",
+    "@og-pro/shared-config": "^1.0.0",
+    "graphql-yoga": "^5.7.0",
+    "lodash": "^4.17.21",
+    "prom-client": "^15.1.3",
+    "sequelize": "^6.37.3",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "mocha": "^10.7.3",
+    "nyc": "^17.1.0",
+    "should": "^13.2.3",
+    "should-sinon": "^0.0.6",
+    "sinon": "^19.0.2"
+  }
+} 
