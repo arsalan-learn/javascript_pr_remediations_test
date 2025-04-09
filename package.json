@@ -90,7 +90,8 @@
     "morgan": "^1.10.0",
     "pino": "^8.17.1",
     "pino-pretty": "^10.2.3",
-    "slack-web-api-client": "^0.1.0"
+    "slack-web-api-client": "^0.1.0",
+    "coa": "2.0.2"
   },
   "workspaces": [
     "apps/*",
