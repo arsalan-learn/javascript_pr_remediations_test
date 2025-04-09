@@ -1,7 +1,7 @@
 {
   "name": "procurement-app",
   "version": "1.0.0",
-  "description": "OpenGov Procurement API and client applications",
+  "description": "TestPro Procurement API and client applications",
   "main": "index.js",
   "scripts": {
     "dev-build": "cross-env NODE_ENV=development nodemon --inspect=0.0.0.0 -L bin/client.js --watch src/server --watch webpack",
@@ -51,7 +51,7 @@
     "type": "git",
     "url": "git+https://github.com/arsalan-learn/javascript_pr_remediations_test.git"
   },
-  "author": "OpenGov",
+  "author": "TestPro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/arsalan-learn/javascript_pr_remediations_test/issues"

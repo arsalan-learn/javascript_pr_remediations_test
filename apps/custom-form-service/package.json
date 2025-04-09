@@ -12,7 +12,7 @@
     "test-service-all": "nyc npm run test-service"
   },
   "keywords": [],
-  "author": "OpenGov",
+  "author": "TestPro",
   "license": "ISC",
   "description": "",
   "dependencies": {
