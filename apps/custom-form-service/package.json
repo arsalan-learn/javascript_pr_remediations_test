@@ -30,7 +30,7 @@
     "redis": "^4.6.10",
     "sequelize": "^6.37.3",
     "uuid": "^10.0.0",
-    "winston": "^3.11.0"
+    "winston": "workspace:^"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
