@@ -92,7 +92,7 @@
     "pino-pretty": "^10.2.3",
     "slack-web-api-client": "^0.1.0",
     "coa": "2.0.2",
-    "webpack": "5.73.0"
+    "webpack": "5.99.7"
   },
   "workspaces": [
     "apps/*",
